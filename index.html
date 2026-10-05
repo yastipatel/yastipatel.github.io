@@ -150,9 +150,24 @@
         /* About */
         .about-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1.2fr 0.8fr 1fr;
             gap: 50px;
             align-items: start;
+        }
+
+        .about-photo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .about-photo img {
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid white;
+            box-shadow: 0 8px 25px rgba(36, 59, 83, 0.12);
         }
 
         .about-text p {
@@ -443,67 +458,70 @@
 
     <!-- About -->
     <section id="about">
-
+    
         <div class="section-label">01 / About</div>
-
+    
         <h2>A little about me.</h2>
-
+    
         <div class="about-grid">
-
+    
             <div class="about-text">
-
+    
                 <p>
                     I'm currently pursuing a B.S. in Finance at Rutgers Business School,
                     with a concentration in Business Analytics.
                 </p>
-
+    
                 <p>
-                    Through my coursework, work experience, and campus involvement,
-                    I've been building experience in financial analysis, data,
-                    business operations, and problem-solving.
+                    Through coursework, work experience, and campus involvement, I've
+                    developed experience in financial analysis, data, business operations,
+                    and problem-solving.
                 </p>
-
+    
                 <p>
-                    I'm currently exploring different career opportunities and looking
-                    for opportunities where I can continue learning while contributing
-                    to a professional team.
+                    I'm currently exploring different career opportunities and looking for
+                    ways to continue learning while contributing to a professional team.
                 </p>
-
+    
             </div>
-
+    
+            <div class="about-photo">
+                <img src="headshot.jpg" alt="Yasti Patel">
+            </div>
+    
             <div class="quick-facts">
-
+    
                 <h3>Quick Facts</h3>
-
+    
                 <div class="fact">
                     <strong>Education</strong>
                     <span>Rutgers Business School – New Brunswick</span>
                 </div>
-
+    
                 <div class="fact">
                     <strong>Major</strong>
                     <span>Finance</span>
                 </div>
-
+    
                 <div class="fact">
                     <strong>Concentration</strong>
                     <span>Business Analytics</span>
                 </div>
-
+    
                 <div class="fact">
                     <strong>Expected Graduation</strong>
                     <span>January 2028</span>
                 </div>
-
+    
                 <div class="fact">
                     <strong>Currently Exploring</strong>
                     <span>Finance & business opportunities</span>
                 </div>
-
+    
             </div>
-
+    
         </div>
-
+    
     </section>
 
 
